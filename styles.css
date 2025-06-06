@@ -87,6 +87,12 @@ header {
   margin-top: 30px;
 }
 
+@media only screen and (max-width: 767px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+}
+
 .main-content {
   flex: 3;
 }
